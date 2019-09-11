@@ -1,0 +1,226 @@
+.z-body-container{
+	background: #f8efdd;
+	padding: 80px 0 30px;
+}
+.z-body-container .z-introduce{
+	width:745px;
+	margin-right: 38px;
+	position: relative;
+	padding-left: 384px;
+	box-sizing: border-box;
+	height: 250px;
+}
+.z-body-container .z-introduce .z-introduce-img{
+	width:358px;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.z-body-container .z-introduce p{
+	line-height: 1.85;
+	color:#333;
+	margin-top: 30px;
+}
+.z-body-container .z-introduce .z-check-more{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color:#333;
+}
+.z-body-container .z-introduce .z-check-more a{
+	color:#b28040;
+}
+.z-body-container  .z-news{
+	width:377px
+}
+/*news*/
+.z-news-box{
+	margin-top: 28px;
+}
+.z-news-box li{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dashed #a57d7c;
+	padding-right: 76px;
+	padding-left: 15px;
+	position: relative;
+}
+.z-news-box li:before{
+	content: '';
+	display: block;
+	position: absolute;
+	width:6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #d55756;
+	left: 0;
+	top: 17px;
+}
+.z-news-box li span{
+	display: block;
+	position: absolute;
+	width:76px;
+	height: 100%;
+	right: 0;
+	top:0;
+	text-align: right;
+	color:#999;
+	font-size:12px;
+}
+.z-news-box li a:hover{
+	color:#c6a276;
+}
+.z-news-box li:last-child{
+	border:none;
+}
+/*特色服务*/
+.z-module-title-1{
+	margin-top: 58px;
+	margin-bottom: 26px;
+}
+.z-service{
+	text-align: justify;
+}
+.z-service:after{
+	content: '';
+	display: inline-block;
+	width:100%;
+	height: 0;
+	line-height: 0;
+}
+.z-service .z-service-item{
+	display: inline-block;
+	text-align: center;
+	color:#333;
+}
+.z-service .z-service-item .z-service-img{
+	padding-bottom: 12px;
+}
+
+/*开业实景*/
+.z-body-container-1{
+	padding: 38px 0 43px;
+	background: #e5d0ab;
+}
+.z-body-container-1 .z-module-title{
+	margin-bottom: 20px;
+}
+.z-body-container-1 .z-module-title span{
+	color:#c6b18d;
+}
+.z-body-container-1 .z-module-title a{
+	font-size:14px;
+}
+/*页面中轮播*/
+.z-swiper-box{
+	height: 245px;
+	padding: 0 34px;
+	position: relative;
+}
+.z-swiper-box .swiper-slide{
+	height: 245px;
+	text-align: center;
+}
+.z-swiper-box .swiper-slide .z-img-box{
+	box-sizing: border-box;
+	height: 218px;
+	background: #f7e5c5;
+	padding: 10px;
+	border:1px solid #946a51;
+	margin-bottom: 10px;
+}
+.z-swiper-box .swiper-slide .z-img-box p{
+	height: 100%;
+	width:100%;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	background-image: url(../img/arrow-1.png);
+	left: 0;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	background-image: url(../img/arrow-2.png);
+	right: 0;
+}
+.swiper-button-next, .swiper-button-prev{
+	background-size:auto;
+	width:20px;
+	height: 50px;
+	background-color:#946a51;
+	border-radius: 50px;
+	outline: none;
+	margin-top: 0;
+	top:73px;
+}
+/*养生课堂*/
+.z-class{
+	margin-top: 27px;
+}
+.z-class .z-class-part-1{
+	box-sizing: border-box;
+	width:592px;
+	padding-right: 30px;
+}
+.z-class .z-class-part-2{
+	width:568px;
+}
+.z-class .z-part-img{
+	width:100%;
+	height: 132px;
+	overflow: hidden;
+	background: url(../img/yangshen.png) no-repeat center;
+	margin-bottom: 24px;
+}
+.z-class .z-class-part-2 .z-part-img{
+	background-image: url(../img/yangsheng-1.png);
+}
+.z-class li{
+	margin-bottom: 30px;
+	color:#666;
+	cursor: pointer;
+	position: relative;
+	padding-right: 100px;
+}
+.z-class li .z-class-title{
+	margin-bottom: 10px;
+	color:#333;
+	font-size:16px;
+	font-weight: 900;
+}
+.z-class li>p{
+	line-height: 1.75;
+	width:100%;
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	word-break: break-all;
+	white-space: normal !important;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	height: 45px;
+}
+.z-class li .z-class-time{
+	position: absolute;
+	top:0;
+	right: 0;
+	height: 77px;
+	width:74px;
+	background: #e5d0ab;
+	text-align: center;
+	line-height: 1;
+	box-sizing: border-box;
+	padding-top: 15px;
+}
+.z-class li .z-class-time div{
+	display: inline-block;
+	font-size:24px;
+	color:#604b27;
+	border-bottom: 2px solid #604b27;
+	margin-bottom: 6px;
+}
+.z-class li .z-class-time p{
+	color:#947b4f;
+	font-size:14px;
+}
