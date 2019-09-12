@@ -1,14 +1,17 @@
-layui.use(['carousel','mobile'], function(){
+layui.use(['carousel','laypage','mobile'], function(){
 	var carousel = layui.carousel;
 	var $ = layui.jquery;
-	 var mobile = layui.mobile,layim = mobile.layim;
-	//建造实例
+	var mobile = layui.mobile;
+	var layim = mobile.layim;
+	var laypage = layui.laypage;
+	 
 	carousel.render({
 	    elem: '#banner',
 	    width: '100%',
 	    height:'520px',
-	    arrow: 'none' //始终显示箭头
+	    arrow: 'none'
 	});
+	
 	//banner构建
 	function _setImg (dom){
 		var len = $(dom).length;
@@ -22,5 +25,15 @@ layui.use(['carousel','mobile'], function(){
 	_setImg ('#banner>div>div');
 	_setImg ('.z-swiper-box .swiper-slide .z-img-box p');
 	
-	
+	/***
+	 * 分页器
+	 * */
+	laypage.render({
+    	elem: 'z-laypage',
+    	count: 50, //数据总数，从服务端得到
+    	limit:9,
+    	layout:['count','prev','page','next','skip']
+  	});
+  	console.log(layui)
+
 });

@@ -1,0 +1,9 @@
+@import url("index.css");
+.z-main-content{
+	margin-top: 34px;
+}
+.z-main-content .z-module-title{
+	padding-bottom: 22px;
+	border-bottom: 1px solid #4f392c;
+	margin-bottom: 27px;
+}

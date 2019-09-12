@@ -1,0 +1,186 @@
+.z-container{
+	margin-top: 35px;
+}
+.z-container{
+	position: relative;
+	padding-left: 272px;
+}
+.z-container .z-side-box{
+	position: absolute;
+	width:242px;
+	top:0;
+	left: 0;
+	
+}
+.z-container .z-side-box .z-nav .z-nav-box {
+	margin-top: 27px;
+	padding-bottom: 60px;
+}
+.z-container .z-side-box .z-nav .z-nav-box li{
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #f8efdd;
+	background: #7b5a46;
+	text-align: center;
+	color:#fff;
+	font-size: 16px;
+}
+.z-container .z-side-box .z-nav .z-nav-box li a{
+	color:#fff;
+	display: block;
+	width:100%;
+	height: 100%;
+}
+.z-container .z-side-box .z-nav .z-nav-box li a:hover{
+	background: #b20a0a;
+}
+.z-container .z-side-box .z-contact>p{
+	color:#333;
+	font-size:14px;
+	font-weight: 900;
+	padding-top: 24px;
+	border-top:1px solid #333;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.z-container .z-side-box .z-contact li{
+	line-height: 1.75;
+	color:#666;
+}
+.z-main-container{
+	min-height: 600px;
+}
+.z-main-container .z-main-content{
+	border-top:1px solid #333;
+	margin-top: 27px;
+	padding: 30px 64px 96px;
+}
+.z-main-container .z-main-content .z-main-content-title{
+	margin-bottom: 12px;
+	font-size:18px;
+	font-weight: 900;
+	text-align: center;
+}
+.z-main-container .z-main-content>p{
+	margin-bottom: 34px;
+	color:#32241c;
+	text-align: center;
+}
+.z-main-container .z-main-content .z-main-txt p{
+	line-height: 1.75;
+	color:#333;
+	margin-bottom: 25px;
+}
+.z-main-container .z-main-content .z-main-txt img{
+	max-width: 100%;
+}
+/*列表*/
+.z-list{
+	margin-top: 27px;
+}
+.z-list .z-list-item{
+	width:274px;
+	margin-right: 33px;
+	margin-bottom: 38px;
+	text-align: center;
+}
+.z-list .z-list-item:nth-child(3n){
+	margin-right: 0;
+}
+.z-list .z-list-item .z-list-img{
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	height: 200px;
+	width:100%;
+	border:10px solid #d6cbb4;
+	background: #d6cbb4;
+	overflow: hidden;
+}
+.z-list .z-list-item .z-list-img img{
+	width:100%;
+}
+/*留言详情*/
+.z-form{
+	padding: 55px 0 142px 44px;
+	border-top:1px solid #4f392c;
+	margin-top: 27px;
+}
+.z-form .layui-form-label{
+	text-align: left;
+	padding: 0;
+	color:#666;
+	width: 58px;
+	line-height: 44px;
+}
+.z-form .layui-form-item{
+	margin-bottom: 26px;
+	position: relative;
+}
+.z-form .layui-input-block{
+	margin-left: 58px;
+}
+.z-form  .layui-input,.z-form .layui-textarea{
+	height: 44px;
+	border-color:#bc9780;
+	width:240px;
+}
+.z-form .layui-textarea{
+	width:631px;
+	height: 273px;
+	resize: none;
+}
+.z-form .z-check-code{
+	height: 44px;
+	position: absolute;
+	line-height: 44px;
+	left: 315px;
+	top:0;
+}
+.z-form .z-check-code .z-change-btn{
+	color:#666;
+	cursor: pointer;
+	margin-left: 8px;
+}
+.z-form .layui-btn{
+	background-color:#b20a0a;
+	font-size:16px;
+	height: 64px;
+	width:240px
+}
+.z-form .layui-btn.layui-btn-primary{
+	border:none;
+	background: none;
+	color:#666;
+	font-size:14px;
+	padding: 0;
+	width:90px;
+	margin: 0;
+}
+/*弹窗*/
+.z-popup-class .layui-layer-title{
+	height: 50px;
+	background: #7b5a46;
+	color:#fff;
+	font-size:16px;
+	line-height: 50px;
+	border:none;
+}
+.z-popup-class .layui-layer-setwin{
+	display: none;
+}
+.z-popup-class .layui-layer-btn{
+	padding-bottom: 46px;
+}
+.z-popup-class .layui-layer-btn0 {
+	width:166px;
+	background-color: #b20a0a !important;
+	cursor: pointer !important;
+	border: none;
+	height: 44px;
+	line-height: 44px;
+	font-size:16px;
+	text-align: center;
+	border-radius: 0px;
+	display: block;
+	margin: 0 auto;
+}

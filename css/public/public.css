@@ -5,6 +5,11 @@
 	width:1160px;
 	margin: 0 auto;
 }
+.z-body{
+	min-width: 1160px;
+	background: #f8efdd;
+	padding-top: 22px;
+}
 .z-fl{
 	float: left;
 }
@@ -385,4 +390,43 @@
 	height: 17px;
 	background-image: url(../../img/liuyan-icon.png);
 	vertical-align: -6%;
+}
+/*面包屑导航*/
+.z-breadcrumb a,.z-breadcrumb{
+	font-size:14px;
+	color:#948262;
+}
+.z-breadcrumb:before{
+	content: '';
+	display: inline-block;
+	width:14px;
+	height: 18px;
+	background: url(../../img/p-icon.png) no-repeat center;
+	margin-right: 8px;
+	vertical-align: -15%;
+}
+/*分页器*/
+#z-laypage{
+	padding-bottom: 150px;
+	text-align: center;
+	margin-top: 37px;
+	padding-top: 24px;
+	border-top:1px solid #d6cbb4;
+}
+#z-laypage .layui-laypage span{
+	background: transparent;
+}
+#z-laypage .layui-laypage a{
+	background: #dec5a0;
+	cursor: pointer;
+}
+#z-laypage  .layui-laypage a:hover{
+	color:#666;
+	cursor: pointer;
+}
+#z-laypage .layui-laypage .layui-laypage-curr .layui-laypage-em{
+	background-color:#4f392c;
+}
+#z-laypage .layui-disabled{
+	color:#aeaba6 !important;
 }
