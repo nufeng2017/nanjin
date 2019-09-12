@@ -1,6 +1,7 @@
-layui.use(['carousel'], function(){
+layui.use(['carousel','mobile'], function(){
 	var carousel = layui.carousel;
 	var $ = layui.jquery;
+	 var mobile = layui.mobile,layim = mobile.layim;
 	//建造实例
 	carousel.render({
 	    elem: '#banner',
@@ -8,7 +9,6 @@ layui.use(['carousel'], function(){
 	    height:'520px',
 	    arrow: 'none' //始终显示箭头
 	});
-	
 	//banner构建
 	function _setImg (dom){
 		var len = $(dom).length;
@@ -21,4 +21,6 @@ layui.use(['carousel'], function(){
 	}
 	_setImg ('#banner>div>div');
 	_setImg ('.z-swiper-box .swiper-slide .z-img-box p');
+	
+	
 });

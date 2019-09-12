@@ -317,3 +317,72 @@
 	height: 1px;
 	width:100%;
 }
+/*侧边栏*/
+.z-side-nav{
+	height: 123px;
+	width:44px;
+	box-sizing: border-box;
+	padding:40px 13px 0;
+	font-size:18px;
+	color:#fff;
+	text-align: center;
+	background: #4f392c;
+	position: fixed;
+	right: 0;
+	top:50%;
+	line-height: 1;
+	z-index: 10000;
+}
+.z-side-nav:before{
+	content: '';
+	width:24px;
+	height: 24px;
+	position: absolute;
+	left:10px;
+	top:11px;
+	background: url(../../img/zixun-icon.png) no-repeat center;
+}
+.z-side-nav:hover .z-hide-block{
+	display: block;
+}
+.z-side-nav .z-hide-block{
+	position: absolute;
+	height:123px;
+	width:164px;
+	left:-165px;
+	top:0;	
+	padding-right:1px;
+	display: none;
+}
+.z-side-nav .z-hide-block>div{
+	background: #4f392c;
+	height: 61px;
+	cursor: pointer;
+	line-height: 61px;
+	text-align: center;
+	font-size:14px;
+}
+.z-side-nav .z-hide-block>div:hover{
+	background: #8a6550;
+}
+.z-side-nav .z-hide-block>div a{
+	font-size:14px;
+	color:#fff;
+}
+.z-side-nav .z-hide-block .z-consultation{
+	margin-bottom: 1px;
+}
+.z-side-nav .z-hide-block>div:before{
+	content: '';
+	display: inline-block;
+	width:19px;
+	height: 22px;
+	background: url(../../img/kefu-icon.png) no-repeat center;
+	margin-right: 6px;
+	vertical-align: -10%;
+}
+.z-side-nav .z-hide-block>div:last-child:before{
+	height: 17px;
+	background-image: url(../../img/liuyan-icon.png);
+	vertical-align: -6%;
+}
