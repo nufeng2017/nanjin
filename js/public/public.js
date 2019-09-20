@@ -34,6 +34,4 @@ layui.use(['carousel','laypage','mobile'], function(){
     	limit:9,
     	layout:['count','prev','page','next','skip']
   	});
-  	console.log(layui)
-
 });

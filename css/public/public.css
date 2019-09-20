@@ -188,7 +188,6 @@
 	width:666px;
 	position: relative;
 	box-sizing: border-box;
-	padding-right: 148px;
 	line-height: 1;
 }
 .z-footer .z-footer-content .z-wrap .z-footer-logo{
@@ -252,21 +251,14 @@
 	text-align: center;
 	position: absolute;
 	right: 0;
-	top:78px;
+	top:158px;
 }
-.z-footer .z-qrcode .z-qrcode-box{
-	position: relative;
-	height: 148px;
-	width:148px;
-	background: url(../../img/qrcode-bg.png) no-repeat center;
-	margin-bottom: 12px;
+.z-footer .z-qrcode img{
+	width: 116px;
+	height: 116px;
 }
-.z-footer .z-qrcode .z-qrcode-box img{
-	width:126px;
-	height: 126px;
-	position: absolute;
-	top:11px;
-	left: 11px;
+.z-footer .z-qrcode img:first-child{
+	margin-right: 20px;
 }
 .z-footer .z-footer-web-info{
 	color:#825e4a;
